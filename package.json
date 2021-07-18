@@ -1,0 +1,23 @@
+{
+  "name": "vimond-node-app",
+  "version": "1.0.0",
+  "description": "Rest API working as a middle-layer between a client and another REST API",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "keywords": [
+    "node",
+    "restAPI"
+  ],
+  "author": "kanishk",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "joi": "^17.4.1",
+    "node-cache": "^5.1.2",
+    "node-fetch": "^2.6.1"
+  }
+}
