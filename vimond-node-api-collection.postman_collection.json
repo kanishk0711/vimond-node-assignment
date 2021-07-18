@@ -1,0 +1,133 @@
+{
+	"variables": [],
+	"info": {
+		"name": "vimond-node-api-collection",
+		"_postman_id": "414a9a93-dad8-b74e-5d6f-74624c99a0ac",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Images",
+			"request": {
+				"url": {
+					"raw": "http://localhost:8040/images?size=2&offset=5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8040",
+					"path": [
+						"images"
+					],
+					"query": [
+						{
+							"key": "size",
+							"value": "2",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "offset",
+							"value": "5",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "ping",
+			"request": {
+				"url": "http://localhost:8040/ping",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "version",
+			"request": {
+				"url": "http://localhost:8040/version",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "nicholas",
+			"request": {
+				"url": "http://localhost:8040/Nicholas",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "romaguera",
+			"request": {
+				"url": "http://localhost:8040/Romaguera",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "todo",
+			"request": {
+				"url": "http://localhost:8040/todo",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"id\":\"\",\r\n\t\"title\": \"Testing Title\",\r\n\t\"completed\": \"true\"\r\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "sorted-users",
+			"request": {
+				"url": "http://localhost:8040/sorted-users",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "new-todos",
+			"request": {
+				"url": "http://localhost:8040/new-todos",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
